@@ -94,7 +94,7 @@ public class Main
                 // invaild password
                 if (accounts.get(loginName).getPassword().compareTo(loginPswd) != 0)
                 {
-                    // 2 chances to enter re-password before return to the start point
+                    // 2 chances to re-enter password before return to the start point
                     for (int i = 0; i < 2; i++)
                     {
                         System.out.println("Invalid password. Try again!");
